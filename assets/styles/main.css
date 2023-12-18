@@ -25,7 +25,7 @@ nav{
     justify-content: space-around;
 }
 nav>a, h1, footer a{
-    color: #ccc;
+    color: white;
     text-decoration: none;
 }
 main{
