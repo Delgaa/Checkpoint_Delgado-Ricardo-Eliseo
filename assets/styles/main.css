@@ -71,6 +71,7 @@ section>a{
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.445);
     background-color: white;
+    border-radius: 3px;
     padding: 2px;
     align-self: end;
     margin-top: 4rem;
