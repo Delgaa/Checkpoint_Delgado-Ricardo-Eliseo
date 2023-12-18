@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../images/redes-neuronales.png);
+    height: 20vh;
+    background-position-x: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main>p{
+    width: 90vw;
+}
+section>h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+nav>a, h1, footer a{
+    color: #ccc;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+main>p{
+    text-align: center;
+}
+body{
+    background-color: #ccc;
+}
+img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+div>section{
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    box-shadow: 2px 18px 29px -4px rgba(0, 0, 0, 0.404);
+    -webkit-box-shadow: 2px 18px 29px -4px rgba(0,0,0,0.404);
+    -moz-box-shadow: 2px 18px 29px -4px rgba(0,0,0,0.404);
+}
+section>a{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    color: black;
+    background-color: white;
+    padding: 2px;
+    align-self: end;
+    margin-top: 4rem;
+    margin-right: 5px;
+}
+table, th{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-collapse: collapse;
+}
+th{
+    padding: 5px;
+}
+table{
+    margin-left: 1rem;
+}
+footer{
+    background-color: #4caf50;
+    display: flex;
+    margin-top: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    padding: 10px;
+}
+fieldset, footer>h3, footer>p{
+    color: white;
+    padding-bottom: 2px;
+}
+@media screen and ( min-width:800px){
+    fieldset{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2px;
+        width: 270px;
+    }
+    footer{
+
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width:1024px){
+    div{
+        gap: 8rem;
+    }
+}
