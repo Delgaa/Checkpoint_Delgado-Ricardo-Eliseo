@@ -12,8 +12,8 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
-main>p{
-    width: 90vw;
+h2, h3, p, section>a, th{
+    color: rgba(0, 0, 0, 0.767);
 }
 section>h2{
     text-align: center;
@@ -34,8 +34,12 @@ main{
     align-items: center;
     gap: 1rem;
 }
+main>h2{
+    margin-top: 1rem;
+}
 main>p{
     text-align: center;
+    width: 90vw;
 }
 body{
     background-color: #ccc;
@@ -66,7 +70,6 @@ div>section{
 section>a{
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.445);
-    color: black;
     background-color: white;
     padding: 2px;
     align-self: end;
